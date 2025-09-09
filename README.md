@@ -1,6 +1,6 @@
-# 🎙️ Speech-to-Text API
+# 🎙️ AnyAudio
 
-Backend de Node.js para transformar archivos de audio a texto usando la API de Groq y los modelos Whisper.
+Backend in Node.js to transform audio files to text using FFMEPG, la API de Groq and Whisper.
 
 ## 🚀 Características
 
@@ -16,7 +16,8 @@ Backend de Node.js para transformar archivos de audio a texto usando la API de G
 
 ## 📋 Prerrequisitos
 
-- Node.js >= 16.0.0
+- FFMEPG installed, you can install https://www.ffmpeg.org/download.html
+- Node.js >= 16.0.0, recomended 18
 - Token de Groq API
 - npm o yarn
 
